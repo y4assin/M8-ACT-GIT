@@ -1,39 +1,65 @@
 body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-    }
-    
-    .title-container {
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    
-    .main-title {
-        font-size: 36px;
-    }
-    
-    .gallery {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-    
-    .image {
-        margin: 10px;
-        text-align: center;
-    }
-    
-    .image img {
-        width: 300px;
-        height: 200px;
-        object-fit: cover;
-        border-radius: 5px;
-    }
-    
-    .subtitle {
-        margin-top: 5px;
-        font-size: 18px;
-        font-weight: bold;
-    }
-    
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+.title-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-title {
+    font-size: 36px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image {
+    margin: 10px;
+    text-align: center;
+}
+
+.image img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.subtitle {
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.contact-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact-info {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.contact-info strong {
+    font-weight: bold;
+}
